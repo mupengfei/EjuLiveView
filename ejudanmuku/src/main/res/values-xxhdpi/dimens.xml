@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="danmuku_obj_height">20dip</dimen>
+    <dimen name="danmuku_obj_margin_top">10dip</dimen>
+    <dimen name="danmuku_obj_img_padding">5dip</dimen>
+    <dimen name="danmuku_obj_img_height">10dip</dimen>
+    <dimen name="danmuku_obj_img_width">23.3dip</dimen>
+    <dimen name="danmuku_obj_user_margin_left">3.3dip</dimen>
+    <dimen name="danmuku_obj_user_margin_top">3dip</dimen>
+    <dimen name="danmuku_obj_text_size">10sp</dimen>
+</resources>

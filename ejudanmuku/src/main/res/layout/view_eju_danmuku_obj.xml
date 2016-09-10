@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/danmuku_obj"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/danmuku_obj_height"
+    android:layout_centerVertical="true"
+    android:background="@drawable/bd_eju_danmuku_obj"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/danmuku_obj_user_margin_left">
+
+    <ImageView
+        android:id="@+id/danmuku_img"
+        android:layout_width="@dimen/danmuku_obj_img_width"
+        android:layout_height="@dimen/danmuku_obj_img_height"
+        android:layout_marginBottom="@dimen/danmuku_obj_img_padding"
+        android:layout_marginLeft="@dimen/danmuku_obj_img_padding"
+        android:layout_marginTop="@dimen/danmuku_obj_img_padding"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/danmuku_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/danmuku_obj_user_margin_left"
+        android:paddingBottom="@dimen/danmuku_obj_user_margin_top"
+        android:paddingTop="@dimen/danmuku_obj_user_margin_top"
+        android:shadowColor="#80000000"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="#FFDC66"
+        android:textSize="@dimen/danmuku_obj_text_size" />
+
+    <TextView
+        android:id="@+id/danmuku_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/danmuku_obj_user_margin_left"
+        android:ellipsize="none"
+        android:paddingBottom="@dimen/danmuku_obj_user_margin_top"
+        android:paddingTop="@dimen/danmuku_obj_user_margin_top"
+        android:shadowColor="#80000000"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/danmuku_obj_text_size" />
+</LinearLayout>

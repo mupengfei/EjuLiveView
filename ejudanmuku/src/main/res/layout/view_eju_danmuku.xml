@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/danmuku_first_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/danmuku_obj_height"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/danmuku_second_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/danmuku_obj_height"
+        android:layout_below="@id/danmuku_first_line"
+        android:layout_marginTop="@dimen/danmuku_obj_margin_top"></RelativeLayout>
+</RelativeLayout>

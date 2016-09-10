@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- xxhdpi -->
+    <string name="home_news_intro_size">13.5</string>
+    <string name="home_news_text_size">16</string>
+    <string name="home_cates_text_size">18</string>
+    <string name="home_cates_text_size_selected">20</string>
+    <string name="news_content_text_size">16</string>
+    <string name="news_title_text_size">22</string>
+    <string name="colums_info_title_text_size">18</string>
+    <string name="colums_info_detail_text_size">14</string>
+    <string name="revelations_aboutreport_news_text_size">14</string>
+    <string name="border_text_view_text_size">12</string>
+    <string name="live_border_text_view_text_size">10</string>
+    <string name="home_news_matrix_text_size">14.5</string>
+
+</resources>
